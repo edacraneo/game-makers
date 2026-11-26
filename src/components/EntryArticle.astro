@@ -1,0 +1,56 @@
+---
+interface Tag { name: string; slug: string }
+interface Entry {
+  slug: string; title: string; date: string | null;
+  tags: Tag[]; authors: string[]; feature: string | null;
+  html: string; excerpt: string;
+}
+interface Props { entry: Entry; basePath?: string }
+import { authorIcon } from '../lib/authors';
+const { entry, basePath = '/projets/' } = Astro.props;
+entry.tags = (entry.tags || []).filter((t) => t.slug && t.name?.trim());
+const d = entry.date ? new Date(entry.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
+---
+<article class="mx-auto max-w-3xl px-5 sm:px-8 pt-28 pb-16">
+  <header class="mb-10">
+    <nav class="font-mono text-xs text-ink-500 mb-6">
+      <a href="/" class="hover:text-neon-400">Accueil</a>
+      <span class="mx-2 text-ink-700">/</span>
+      <a href={basePath} class="hover:text-neon-400">{basePath === '/projets/' ? 'Projets' : 'Pages'}</a>
+    </nav>
+    {entry.tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-4">
+        {entry.tags.map((t) => (
+          <a href={`/projets/?tag=${t.slug}`} class="font-mono text-[11px] uppercase tracking-wider px-3 py-1 rounded-full border border-neon-500/40 text-neon-300 hover:bg-neon-500/10 transition-colors">
+            {t.name}
+          </a>
+        ))}
+      </div>
+    )}
+    <h1 class="font-display text-3xl sm:text-5xl font-bold leading-tight">{entry.title}</h1>
+    <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-1 font-mono text-xs text-ink-500">
+      {d && <time datetime={entry.date || ''}>{d}</time>}
+      {entry.authors.length > 0 && (
+        <span class="inline-flex items-center gap-2">
+          par {entry.authors.map((a) => {
+            const icon = authorIcon(a);
+            return (
+              <span class="inline-flex items-center gap-1.5">
+                {icon && <img src={icon} alt={a} class="h-5 w-5 rounded-full border border-ink-600 object-cover" />}
+                {a}
+              </span>
+            );
+          })}
+        </span>
+      )}
+    </div>
+  </header>
+
+  {entry.feature && (
+    <figure class="mb-10 -mx-2">
+      <img src={entry.feature} alt={entry.title} class="w-full rounded-xl border border-ink-700 object-cover max-h-[560px]" />
+    </figure>
+  )}
+
+  <div class="gm-content" set:html={entry.html} />
+</article>

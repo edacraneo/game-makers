@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryArticle from '../components/EntryArticle.astro';
+import data from '../data/site.json';
+import { team } from '../lib/authors';
+const entry = (data.pages as any[]).find((p) => p.slug === 'qui-sommes-nous');
+---
+<Base title="À propos — Game Makers" description={entry?.excerpt}>
+  {entry && <EntryArticle entry={entry} basePath="/a-propos/" />}
+
+  <section class="mx-auto max-w-3xl px-5 sm:px-8 pb-20">
+    <h2 class="font-display text-2xl sm:text-3xl font-bold mb-8">L'équipe</h2>
+    <div class="grid gap-5 sm:grid-cols-2">
+      {team.map((m) => (
+        <div class="card-corner rounded-xl border border-ink-700/70 bg-ink-850 p-6 flex items-center gap-5">
+          <img src={m.icon} alt={m.name} class="h-16 w-16 rounded-full border-2 border-neon-500/40 object-cover shrink-0" />
+          <div>
+            <p class="font-display text-lg font-bold text-ink-100">{m.name}</p>
+            <p class="font-mono text-sm text-neon-400 mt-1">{m.bio}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

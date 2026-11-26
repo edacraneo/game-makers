@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import data from '../data/site.json';
+
+const posts = data.posts.filter((p: any) => p.visible !== false) as any[];
+const FEATURED = ['mini-sega-outrun', 'bam-board', 'mini-new-astro-city', 'mini-vewlix-v2-0', 'starone', 'neo-geo-x', 'pony-mark-ii', 'mini-sega-swing', 'mini-aero'];
+const featured = FEATURED.map((s) => posts.find((p) => p.slug === s)).filter(Boolean);
+const latest = posts.filter((p) => !FEATURED.includes(p.slug)).slice(0, 6);
+const year = new Date().getFullYear();
+const count = posts.length;
+---
+<Base title="Game Makers — Bornes d’arcade, consoles et PCB sur mesure" description="Game Makers : une équipe de passionnés qui crée des bornes d’arcade, consoles et circuits imprimés en impression 3D.">
+  <!-- HERO -->
+  <section class="relative overflow-hidden bg-blueprint">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_70%_0%,rgba(255,107,26,0.12),transparent_70%)]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_15%_90%,rgba(34,211,238,0.07),transparent_70%)]"></div>
+
+    <div class="relative mx-auto max-w-7xl px-5 sm:px-8 pt-32 pb-20 sm:pt-40 sm:pb-28">
+      <p class="font-mono text-xs sm:text-sm text-neon-400 tracking-[0.3em] uppercase mb-6">
+        <span class="text-cyanx-400">▮</span> Passionnés par l'univers du jeux vidéo — impression 3D — L'électronique
+      </p>
+      <h1 class="font-display font-bold leading-[0.95] tracking-tight text-[clamp(3rem,9vw,7.5rem)] text-ink-100">
+        GAME MAKERS
+      </h1>
+      <p class="mt-8 max-w-2xl text-lg sm:text-xl text-ink-300 leading-relaxed">
+        Une équipe de passionnés qui crée des <span class="text-ink-100 font-medium">bornes d'arcade</span>,
+        des <span class="text-ink-100 font-medium">consoles</span> et des <span class="text-ink-100 font-medium">bartops</span> en impression 3D,
+        avec nos propres <span class="text-ink-100 font-medium">circuits imprimés</span> conçus sur mesure.
+        Du modèle 3D à l'assemblage, tout est fait à la main.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="/projets/" class="px-7 py-3.5 rounded-lg bg-neon-500 text-ink-950 font-display font-bold hover:bg-neon-400 transition-all hover:shadow-[0_0_30px_rgba(255,107,26,0.4)]">
+          Explorer les créations
+        </a>
+        <a href="/a-propos/" class="px-7 py-3.5 rounded-lg border border-ink-600 text-ink-200 font-display font-semibold hover:border-cyanx-400 hover:text-cyanx-300 transition-colors">
+          Notre démarche
+        </a>
+      </div>
+
+      <dl class="mt-16 grid grid-cols-3 gap-6 max-w-xl">
+        <div>
+          <dt class="font-mono text-[10px] uppercase tracking-widest text-ink-500">Projets</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold text-neon-400">{count}</dd>
+        </div>
+        <div>
+          <dt class="font-mono text-[10px] uppercase tracking-widest text-ink-500">Depuis</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold text-cyanx-400">2015</dd>
+        </div>
+        <div>
+          <dt class="font-mono text-[10px] uppercase tracking-widest text-ink-500">Tech</dt>
+          <dd class="font-display text-3xl sm:text-4xl font-bold text-ink-100">3D + PCB</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- CRÉATIONS PHARES -->
+  <section class="mx-auto max-w-7xl px-5 sm:px-8 py-20">
+    <div class="flex items-end justify-between mb-10 gap-4">
+      <div>
+        <p class="font-mono text-xs text-neon-500 uppercase tracking-[0.25em] mb-3">// Nos réalisations</p>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold">Nos projets</h2>
+      </div>
+      <a href="/projets/" class="hidden sm:inline font-mono text-sm text-ink-300 hover:text-neon-400 transition-colors">
+        Tout voir →
+      </a>
+    </div>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {featured.map((p) => <PostCard {...p} />)}
+    </div>
+  </section>
+
+  <!-- DÉMARCHE -->
+  <section class="border-y border-ink-800 bg-ink-900/40 bg-blueprint">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 py-20">
+      <p class="font-mono text-xs text-cyanx-400 uppercase tracking-[0.25em] mb-3">// Comment on fait</p>
+      <h2 class="font-display text-3xl sm:text-4xl font-bold mb-12">Du fichier 3D à la borne</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        {[
+          { n: '01', t: 'Modélisation 3D', d: 'On dessine chaque pièce : coques, boutons, joystick, interfaces. Pensé pour être imprimé en PLA.' },
+          { n: '02', t: 'Impression 3D', d: 'FDM/PLA, calibration, finition : ponçage, peinture, plantation de LED et néons.' },
+          { n: '03', t: 'Câblage & Assemblage', d: 'Nos PCB sur mesure, câblage propre, intégration Raspberry Pi et tests en conditions réelles.' },
+        ].map((s) => (
+          <div class="card-corner rounded-xl border border-ink-700/70 bg-ink-850 p-7">
+            <p class="font-mono text-sm text-neon-500 mb-4">{s.n}</p>
+            <h3 class="font-display text-xl font-bold mb-3">{s.t}</h3>
+            <p class="text-sm text-ink-400 leading-relaxed">{s.d}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- OLD SCHOOL IS COOL -->
+  <section class="mx-auto max-w-7xl px-5 sm:px-8 py-20">
+    <div class="relative overflow-hidden rounded-2xl border border-ink-700/80 bg-ink-900/50 bg-blueprint">
+      <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12 p-8 sm:p-12">
+        <div class="shrink-0">
+          <img src="/oldschool-disk.jpg" alt="Old School is Cool" class="w-full max-w-md mx-auto md:mx-0" />
+        </div>
+        <div class="flex-1 text-center md:text-left">
+          <p class="font-mono text-xs text-neon-500 uppercase tracking-[0.25em] mb-4">// Passion</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold mb-4">Old School is Cool</h2>
+          <p class="text-ink-300 leading-relaxed max-w-xl mx-auto md:mx-0">
+            On aime l'âge d'or de l'arcade et des consoles rétro : des bornes Sega aux Game Boy,
+            en passant par les bartops et nos circuits imprimés faits maison.
+            Avec l'impression 3D, tout est possible.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DERNIÈRES CRÉATIONS -->
+  <section class="mx-auto max-w-7xl px-5 sm:px-8 py-20">
+    <div class="flex items-end justify-between mb-10 gap-4">
+      <div>
+        <p class="font-mono text-xs text-cyanx-400 uppercase tracking-[0.25em] mb-3">// Récemment</p>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold">Derniers projets</h2>
+      </div>
+      <a href="/projets/" class="hidden sm:inline font-mono text-sm text-ink-300 hover:text-neon-400 transition-colors">
+        Toute la galerie →
+      </a>
+    </div>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {latest.map((p) => <PostCard {...p} />)}
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mx-auto max-w-7xl px-5 sm:px-8 pb-24">
+    <div class="relative overflow-hidden rounded-2xl border border-neon-500/30 bg-gradient-to-br from-ink-850 to-ink-900 p-10 sm:p-14 text-center bg-blueprint">
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_50%_60%_at_50%_0%,rgba(255,107,26,0.12),transparent_70%)]"></div>
+      <div class="relative">
+        <h2 class="font-display text-3xl sm:text-5xl font-bold">Envie de<br /><span class="text-neon-400 text-glow-neon">créer ?</span></h2>
+        <p class="mt-4 text-ink-300 max-w-xl mx-auto">Tutoriels détaillés, listes de matériel et nos fichiers 3D et PCB pour refaire nos projets.</p>
+        <a href="/projets/" class="mt-8 inline-block px-8 py-3.5 rounded-lg bg-neon-500 text-ink-950 font-display font-bold hover:bg-neon-400 transition-colors">
+          Parcourir les projets
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

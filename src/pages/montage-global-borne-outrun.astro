@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryArticle from '../components/EntryArticle.astro';
+import data from '../data/site.json';
+const entry = (data.pages as any[]).find((p) => p.slug === 'montage-global-borne-outrun');
+---
+<Base title={entry ? `${entry.title} — Game Makers` : 'Montage borne OutRun — Game Makers'} description={entry?.excerpt}>
+  {entry && <EntryArticle entry={entry} basePath="/montage-global-borne-outrun/" />}
+</Base>

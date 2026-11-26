@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Contact — Game Makers" description="Contactez Game Makers pour vos projets de bornes d'arcade, consoles et impression 3D.">
+  <section class="mx-auto max-w-3xl px-5 sm:px-8 pt-28 pb-16">
+    <header class="mb-10">
+      <nav class="font-mono text-xs text-ink-500 mb-6">
+        <a href="/" class="hover:text-neon-400">Accueil</a>
+        <span class="mx-2 text-ink-700">/</span>
+        <span class="text-neon-400">Contact</span>
+      </nav>
+      <h1 class="font-display text-4xl sm:text-5xl font-bold mb-4">Contact</h1>
+      <p class="text-ink-300 leading-relaxed max-w-xl">
+        Vous avez un projet de borne d'arcade ou une question sur nos créations ?
+        Remplissez ce formulaire et nous vous répondrons rapidement.
+      </p>
+    </header>
+
+    <form
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      class="space-y-6 bg-ink-850 rounded-xl border border-ink-700/70 p-6 sm:p-8"
+    >
+      <input type="hidden" name="access_key" value="10288d0a-ade1-4e8b-b339-ef6413e275e7" />
+      <input type="hidden" name="subject" value="Message depuis Game Makers" />
+      <input type="hidden" name="from_name" value="Game Makers" />
+
+      <div class="grid gap-6 sm:grid-cols-2">
+        <div>
+          <label for="name" class="block font-mono text-xs uppercase tracking-wider text-ink-400 mb-2">Nom</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="w-full px-4 py-3 rounded-lg border border-ink-700 bg-ink-900 text-ink-100 placeholder-ink-600 focus:border-neon-500 focus:ring-1 focus:ring-neon-500 outline-none transition-colors"
+            placeholder="Votre nom"
+          />
+        </div>
+        <div>
+          <label for="email" class="block font-mono text-xs uppercase tracking-wider text-ink-400 mb-2">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="w-full px-4 py-3 rounded-lg border border-ink-700 bg-ink-900 text-ink-100 placeholder-ink-600 focus:border-neon-500 focus:ring-1 focus:ring-neon-500 outline-none transition-colors"
+            placeholder="votre@email.com"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="subject" class="block font-mono text-xs uppercase tracking-wider text-ink-400 mb-2">Sujet</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          class="w-full px-4 py-3 rounded-lg border border-ink-700 bg-ink-900 text-ink-100 placeholder-ink-600 focus:border-neon-500 focus:ring-1 focus:ring-neon-500 outline-none transition-colors"
+          placeholder="Votre sujet"
+        />
+      </div>
+
+      <div>
+        <label for="message" class="block font-mono text-xs uppercase tracking-wider text-ink-400 mb-2">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="5"
+          class="w-full px-4 py-3 rounded-lg border border-ink-700 bg-ink-900 text-ink-100 placeholder-ink-600 focus:border-neon-500 focus:ring-1 focus:ring-neon-500 outline-none transition-colors resize-y"
+          placeholder="Décrivez votre projet ou votre question..."
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-neon-500 text-ink-950 font-display font-bold hover:bg-neon-400 transition-colors"
+      >
+        Envoyer le message
+      </button>
+
+    </form>
+
+    <div class="mt-12 rounded-xl border border-ink-700/70 bg-ink-850 p-6">
+      <p class="font-mono text-xs text-neon-500 uppercase tracking-wider mb-3">Instagram</p>
+      <a href="https://www.instagram.com/g4me.m4kers/" target="_blank" rel="noopener" class="inline-flex items-center gap-3 text-ink-200 hover:text-neon-400 transition-colors">
+        <img src="/logo/instagram.jpg" alt="Instagram" class="h-6 w-6 rounded" />
+        Suivez-nous sur Instagram @g4me.m4kers
+      </a>
+    </div>
+  </section>
+</Base>

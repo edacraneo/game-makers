@@ -1,0 +1,42 @@
+---
+interface Props { path: string }
+const { path } = Astro.props;
+const links = [
+  { href: '/', label: 'Accueil' },
+  { href: '/a-propos/', label: 'À propos' },
+  { href: '/contact/', label: 'Contact' },
+];
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+---
+<header class="fixed top-0 inset-x-0 z-50 border-b border-ink-800/80 bg-ink-950/85 backdrop-blur-md">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8 h-16 flex items-center justify-between gap-6">
+    <a href="/" class="flex items-center gap-3 select-none">
+      <img src="/logo-robot.png" alt="Game Makers robot" class="h-9 w-auto" />
+      <img src="/logo-texte.png" alt="Game Makers" class="h-6 w-auto hidden sm:block" />
+    </a>
+
+    <nav class="hidden md:flex items-center gap-1 font-mono text-[13px]">
+      {links.map((l) => (
+        <a
+          href={l.href}
+          class:list={[
+            'px-3 py-2 rounded-md transition-colors',
+            isActive(l.href) ? 'text-neon-400 bg-ink-800/70' : 'text-ink-300 hover:text-ink-100 hover:bg-ink-800/40',
+          ]}
+        >
+          {l.label}
+        </a>
+      ))}
+    </nav>
+
+    <details class="md:hidden relative">
+      <summary class="list-none cursor-pointer font-mono text-sm text-ink-200 px-3 py-2 border border-ink-700 rounded-md">MENU</summary>
+      <nav class="absolute right-0 mt-2 w-48 rounded-lg border border-ink-700 bg-ink-900 shadow-2xl p-2 flex flex-col font-mono text-sm">
+        {links.map((l) => (
+          <a href={l.href} class="px-3 py-2 rounded-md text-ink-200 hover:bg-ink-800 hover:text-neon-400">{l.label}</a>
+        ))}
+      </nav>
+    </details>
+  </div>
+</header>

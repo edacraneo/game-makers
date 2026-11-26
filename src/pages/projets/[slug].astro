@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import EntryArticle from '../../components/EntryArticle.astro';
+import data from '../../data/site.json';
+
+export function getStaticPaths() {
+  return (data.posts as any[]).filter((p) => p.visible !== false).map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
+}
+const { post } = Astro.props as any;
+const posts = data.posts as any[];
+const idx = posts.findIndex((p) => p.slug === post.slug);
+const prev = posts[idx + 1]; // plus ancien
+const next = posts[idx - 1]; // plus récent
+const related = posts.filter((p) => p.slug !== post.slug && p.tags?.some((t: any) => post.tags?.some((pt: any) => pt.slug === t.slug))).slice(0, 3);
+---
+<Base title={`${post.title} — Game Makers`} description={post.meta_description || post.excerpt}>
+  <EntryArticle entry={post} />
+
+  {(prev || next) && (
+    <nav class="mx-auto max-w-3xl px-5 sm:px-8 pb-8 grid sm:grid-cols-2 gap-4">
+      {next ? (
+        <a href={`/projets/${next.slug}/`} class="group rounded-xl border border-ink-700/70 bg-ink-850 p-5 hover:border-neon-500/60 transition-colors">
+          <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500">← Plus récent</span>
+          <p class="mt-2 font-display font-semibold text-ink-100 group-hover:text-neon-300 transition-colors line-clamp-2">{next.title}</p>
+        </a>
+      ) : <span />}
+      {prev ? (
+        <a href={`/projets/${prev.slug}/`} class="group rounded-xl border border-ink-700/70 bg-ink-850 p-5 hover:border-neon-500/60 transition-colors sm:text-right">
+          <span class="font-mono text-[10px] uppercase tracking-widest text-ink-500">Plus ancien →</span>
+          <p class="mt-2 font-display font-semibold text-ink-100 group-hover:text-neon-300 transition-colors line-clamp-2">{prev.title}</p>
+        </a>
+      ) : <span />}
+    </nav>
+  )}
+
+  {related.length > 0 && (
+    <section class="mx-auto max-w-7xl px-5 sm:px-8 pb-20">
+      <h2 class="font-mono text-xs uppercase tracking-[0.25em] text-neon-500 mb-6">// Sur le même tag</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {related.map((p) => (
+          <a href={`/projets/${p.slug}/`} class="group flex gap-4 rounded-xl border border-ink-700/70 bg-ink-850 p-3 hover:border-neon-500/60 transition-colors">
+            {p.feature && <img src={p.feature} alt="" loading="lazy" class="w-24 h-20 object-cover rounded-lg border border-ink-700 shrink-0" />}
+            <div class="min-w-0">
+              <p class="font-display font-semibold text-sm text-ink-100 group-hover:text-neon-300 transition-colors line-clamp-2">{p.title}</p>
+              <p class="mt-1 font-mono text-[11px] text-ink-500">{p.date}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <div class="mx-auto max-w-3xl px-5 sm:px-8 pb-16">
+    <a href="/projets/" class="font-mono text-sm text-neon-500 hover:text-neon-400">← Retour à la galerie</a>
+  </div>
+</Base>

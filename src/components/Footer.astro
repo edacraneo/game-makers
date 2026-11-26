@@ -1,0 +1,50 @@
+---
+const year = new Date().getFullYear();
+const tags = [
+  { name: 'Créations', slug: 'creations' },
+  { name: 'Collection', slug: 'collection' },
+  { name: 'BARTOPS', slug: 'bartops' },
+  { name: 'CONSOLES', slug: 'consoles' },
+  { name: 'MEDIA CENTER', slug: 'media-center' },
+  { name: 'Jeux', slug: 'jeux' },
+  { name: 'Circuits imprimés', slug: 'pcb' },
+];
+---
+<footer class="border-t border-ink-800 bg-ink-900/60 mt-24">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8 py-14 grid gap-10 md:grid-cols-3">
+    <div>
+      <img src="/logo-texte.png" alt="Game Makers" class="h-7 w-auto mb-3" />
+      <p class="mt-3 text-sm text-ink-400 leading-relaxed max-w-xs">
+        Une équipe de passionnés qui crée des bornes d'arcade, consoles,
+        bartops et circuits imprimés en impression 3D.
+      </p>
+    </div>
+    <div>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink-400 mb-4">Index</p>
+      <ul class="space-y-2 text-sm">
+        <li><a class="text-ink-300 hover:text-neon-400 transition-colors" href="/">Accueil</a></li>
+        <li><a class="text-ink-300 hover:text-neon-400 transition-colors" href="/projets/">Projets & Créations</a></li>
+        <li><a class="text-ink-300 hover:text-neon-400 transition-colors" href="/a-propos/">À propos</a></li>
+        <li><a class="text-ink-300 hover:text-neon-400 transition-colors" href="/contact/">Contact</a></li>
+        <li><a class="text-ink-300 hover:text-neon-400 transition-colors" href="/partenaires/">Partenaires</a></li>
+        <li><a class="inline-flex items-center gap-2 text-ink-300 hover:text-neon-400 transition-colors" href="https://www.instagram.com/g4me.m4kers/" target="_blank" rel="noopener"><img src="/logo/instagram.jpg" alt="" class="h-4 w-4 rounded" />Instagram</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink-400 mb-4">Tags</p>
+      <div class="flex flex-wrap gap-2">
+        {tags.map((t) => (
+          <a href={`/projets/?tag=${t.slug}`} class="font-mono text-xs px-3 py-1.5 rounded-full border border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400 transition-colors">
+            {t.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-ink-800">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 font-mono text-xs text-ink-500">
+      <span>© {year} Game Makers — Tous droits réservés</span>
+      <span class="text-ink-600">IMPRESSION 3D · PCB · RETROGAMING — game-makers.xyz</span>
+    </div>
+  </div>
+</footer>

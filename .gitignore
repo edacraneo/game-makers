@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+public/media/
+public/images/size/
+*.log
+.DS_Store
+.env
