@@ -5,7 +5,7 @@ local_backend: true
 # Prod : remplacez OWNER/REPO par votre dépôt GitHub.
 backend:
   name: github
-  repo: OWNER/REPO
+  repo: edacraneo/game-makers
   branch: main
 
 media_folder: public/images
