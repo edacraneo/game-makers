@@ -7,6 +7,7 @@ backend:
   name: github
   repo: edacraneo/game-makers
   branch: main
+  base_url: https://gm-cms-auth.edacraneo.workers.dev
 
 media_folder: public/images
 public_folder: /images
