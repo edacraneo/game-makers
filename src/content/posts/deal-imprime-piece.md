@@ -1,12 +1,16 @@
 ---
-title: "On t'imprime les pièces !"
-slug: "deal-imprime-piece"
+title: On t'imprime les pièces !
+slug: deal-imprime-piece
 date: 2016-07-20
-tags: ['offres']
-authors: ['BudDevil']
+tags:
+  - offres
+authors:
+  - BudDevil
 featured: false
-feature: "/images/2021/01/img01-45.JPG"
-excerpt: "PRINCIPE : Un de nos projets vous intéresse et vous souhaitez qu'on vous imprime les pièces 3D pour le réaliser ? Vous êtes au bon endroit ! Vous trouverez les détails ci-dessous, …"
+feature: /images/2021/01/img01-45.JPG
+excerpt: "PRINCIPE : Un de nos projets vous intéresse et vous souhaitez qu'on
+  vous imprime les pièces 3D pour le réaliser ? Vous êtes au bon endroit ! Vous
+  trouverez les détails ci-dessous, …"
+visible: false
 ---
-
 <figure class="gm-figure"><img src="/images/2021/03/img01-46.JPG"  alt loading="lazy" width="829" height="753"></figure><p>	</p><hr><h4 id="principe-">PRINCIPE :</h4><p><br>Un de nos projets vous intéresse et vous souhaitez qu'on vous imprime les pièces 3D pour le réaliser ? Vous êtes au bon endroit !<br>Vous trouverez les détails ci-dessous, mais les grandes lignes sont les suivantes:<br>- Le contact se fait par mail exclusivement<br>- Vous achetez en ligne la quantité nécessaire de bobine<br>- Vous faites livrer cette bobine chez GameMakers.<br>- GameMakers imprime les pièces demandées<br>- Sur le site de la Poste, vous achetez le bon Colissimo (GameMakers en point de départ, votre adresse en arrivée)</p><hr><h4 id="quel-projet-vous-int-resse">QUEL PROJET VOUS INTÉRESSE ?</h4><p>Précisez-nous dans le mail le projet que vous souhaitez réaliser ! Nous saurons alors quelles pièces il vous faut.</p><hr><h4 id="conditions-du-deal-">CONDITIONS DU DEAL :</h4><p>Notre façon de procéder est la suivante:<br><br>- Vous vous rendez sur le site de vente de bobines (nous fournissons le lien pour réaliser la commande)<br>- Vous achetez la matière première (bobine(s))<br>- Vous le faites livrer le tout directement chez Game-makers (les coordonnées sont transmises lors de la prise de contact par e-mail)<br><br>Nous imprimons les pièces nécessaires à votre projet lorsque le colis est bien arrivé</p><hr><p>En plus, votre participation nous aidera à développer de nouveaux projets, à réaliser des tests qui à la longue s'avèrent coûteux et permet d'assurer plus efficacement et régulièrement la maintenance de nos machines.<br><br>Un grand MERCI pour votre aide !</p><hr><h4 id="livraison-">LIVRAISON :</h4><p>Notre façon de procéder est la suivante:<br>- Vous vous rendez sur le site de la Poste<br>- Vous remplissez et validez le bon Colissimo, avec Départ en boîte aux lettres<br>- Vous choisissez vos propres options de livraison (assurance,...)<br>- Vous indiquez l'adresse de Game-makers comme point de départ (les coordonnées sont transmises lors de la prise de contact par e-mail)<br>- Vous choisissez votre adresse comme point de livraison.<br><br>On vous prévient dès que le colis est parti.<br>Le suivi se fera sur le site de la Poste.</p><hr><h4 id="alors-deal">ALORS, DEAL ?</h4><p>Si ces conditions vous conviennent, contactez nous par e-mail (edacraneo@gmail.com) en précisant le projet que vous souhaitez réaliser. On vous recontactera pour les modalités.</p>

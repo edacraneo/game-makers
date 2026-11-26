@@ -1,12 +1,16 @@
 ---
-title: "Street Boxer II"
-slug: "street-boxer-ii"
+title: Street Boxer II
+slug: street-boxer-ii
 date: 2017-08-21
-tags: ['jeux']
-authors: ['Frakasss']
+tags:
+  - jeux
+authors:
+  - Frakasss
 featured: false
-feature: "/images/2021/01/mini02-2.PNG"
-excerpt: "Histoire du jeu Je dois vous avouer un truc... Street Boxer II est en fait le premier des Street Boxer. J'ai créé Street Boxer I en supprimant tout un tas d'options de Street Boxer…"
+feature: /images/2021/01/mini02-2.PNG
+excerpt: Histoire du jeu Je dois vous avouer un truc... Street Boxer II est en
+  fait le premier des Street Boxer. J'ai créé Street Boxer I en supprimant tout
+  un tas d'options de Street Boxer…
+visible: true
 ---
-
 <figure class="gm-figure"><img src="/images/2021/03/img02-5.PNG"  alt loading="lazy" width="320" height="256"></figure><hr><h4 id="histoire-du-jeu"><strong><strong>Histoire du jeu</strong></strong></h4><p>Je dois vous avouer un truc... Street Boxer II est en fait le premier des Street Boxer. J'ai créé Street Boxer I en supprimant tout un tas d'options de Street Boxer II pour avoir un peu plus simple, basique... bourrin!<br>Street Boxer II propose un peu plus de choix: toujours le mode deux joueurs, mais aussi la possibilité de choisir son personnage (Rocky, Appolo, Clubber, Ivan ou Hulk!) ou encore choisir son adversaire. Chaque personnage a ses propre statistiques: vitesse de déplacement, points de vie, points d'energie. Les combats seront un peu plus stratégiques que dans StreetBoxer I!</p><figure class="gm-gallery "><div ><div ><div ><img src="/images/2021/01/img03-7.PNG" width="276" height="192" loading="lazy" alt></div><div ><img src="/images/2021/01/img04-7.PNG" width="276" height="192" loading="lazy" alt></div><div ><img src="/images/2021/01/img05-8.PNG" width="276" height="192" loading="lazy" alt></div></div><div ><div ><img src="/images/2021/01/img06-8.PNG" width="276" height="192" loading="lazy" alt></div><div ><img src="/images/2021/01/img07-7.PNG" width="276" height="192" loading="lazy" alt></div><div ><img src="/images/2021/01/img08-6.PNG" width="320" height="256" loading="lazy" alt></div></div></div></figure><hr><h4 id="le-dev-"><strong><strong>Le Dev...</strong></strong></h4><p>Comme d'hab, création des sprites. En mode 1 joueur, on se trouve derrière son perso. Donc il fait créer les personnages de dos et de face, et gérer toutes les positions des bras.<br>Pour le mode 2 joueurs, les sprites sont tous les mêmes, mais de couleurs différentes.<br>Le Gameplay reste sur le même: on attaque, on protège ou on ne fait rien. La différence est que si l'on protège en continu, la barre d'energie se vide. Si la barre d'energie est complètement vide, on ne peut plus frapper ni se protéger jusqu'à ce que la barre soir de nouveau pleine. Ca complique les choses!</p><figure class="gm-gallery "><div ><div ><div ><img src="/images/2021/01/img09-5.PNG" width="276" height="96" loading="lazy" alt></div><div ><img src="/images/2021/01/img10-3.PNG" width="276" height="96" loading="lazy" alt></div><div ><img src="/images/2021/01/img11-5.PNG" width="276" height="96" loading="lazy" alt></div></div><div ><div ><img src="/images/2021/01/img12-4.PNG" width="276" height="96" loading="lazy" alt></div><div ><img src="/images/2021/01/img13-4.PNG" width="276" height="96" loading="lazy" alt></div><div ><img src="/images/2021/01/img14-3.PNG" width="320" height="256" loading="lazy" alt></div></div></div></figure><hr><h4 id="le-jeu"><strong><strong>Le Jeu</strong></strong></h4><p>Un <a href="https://gamebuino.com/fr/creations/street-boxer-2">émulateur</a> sur le site de GameBuino permet de jouer au jeu. Mais c'est encore mieux sur la vraie (il y a le son et les lumières à l'arrière!)</p><figure class="gm-figure"><img src="/images/2021/01/img15.GIF"  alt loading="lazy" width="80" height="64"></figure><hr><h4 id="gamebuino-c-est-quoi-ce-truc"><strong><strong>GAMEBUINO, c'est quoi ce truc??</strong></strong></h4><p>La GAMEBUINO META (qui succède à la GAMEBUINO Classique) est une petite console Française (Cocorico!) dont le but est de s'initier à la programmation. <br>Pas de jeux 4K, beaucoup de pixels, mais c'est fun!<br>Pour encore plus d'infos, il suffit de se rendre directement sur le site Gamebuino.com, voire même de s'inscrire à la newsletter.</p><figure class="gm-figure"><img src="/images/2021/01/mini16.JPG"  alt loading="lazy" width="480" height="320"></figure>

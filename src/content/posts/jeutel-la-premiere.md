@@ -1,12 +1,16 @@
 ---
-title: "JEUTEL, la première"
-slug: "jeutel-la-premiere"
+title: JEUTEL, la première
+slug: jeutel-la-premiere
 date: 2015-05-01
-tags: ['creations']
-authors: ['BudDevil']
+tags:
+  - creations
+authors:
+  - BudDevil
 featured: false
-feature: "/images/2021/01/img01-2.JPG"
-excerpt: "La naissance d'une passion Tout commence lorsqu'un pote me raconte qu'il possède depuis tout petit... une borne d'arcade! Elle est chez ses parents par manque de place... Et probab…"
+feature: /images/2021/01/img01-2.JPG
+excerpt: La naissance d'une passion Tout commence lorsqu'un pote me raconte
+  qu'il possède depuis tout petit... une borne d'arcade! Elle est chez ses
+  parents par manque de place... Et probab…
+visible: true
 ---
-
 <figure class="gm-figure"><img src="/images/2021/03/img01-1.JPG"  alt loading="lazy" width="468" height="624"></figure><hr><p><strong>La naissance d'une passion</strong></p><p>Tout commence lorsqu'un pote me raconte qu'il possède depuis tout petit... une borne d'arcade! Elle est chez ses parents par manque de place... Et probablement à cause de sa femme aussi, je pense...<br>Bref c'est à ce moment précis que le projet se lance dans ma tête. Il faudrait trouver une borne, une belle. Il faudrait trouver le budget aussi. Et accessoirement, convaincre ma femme. Le projet n'est encore qu'à l'état d'embryon que les premières complications apparaissent déjà!</p><p>Je laisse passer quelques jours, pensant (sans trop d'espoir) que l'envie me passera... Mais la petite flamme dans ma tête ne s'est pas éteinte, bien au contraire. C'est maintenant un incendie gigantesque!<br>Je fouille sur le Bon Coin, et le destin s'en mêle: une Jeutel à vendre le jour même pour 250 euros! Négociation avec ma femme qui accepte, j'attele la remorque et je me mets en route!</p><p>J'arrive sur place et elle est là, juste dans le coin du salon. Street Fighter II' tourne dessus et la PCB de Cabal est juste posée à coté, parfait !<br><em>- Je peux essayer ?</em><br><em>- Bien sûr, vas-y !</em></p><figure class="gm-figure"><img src="/images/2021/01/img02-3.JPG"  alt loading="lazy" width="468" height="625"></figure><p>Je ne sais plus trop comment, mais je me retrouve quelques minutes après avec la borne à côté de la remorque. On n'est que deux, et il faut charger ce mastodonte. L'excitation déculpe mes forces, et la voila bien calée, prête pour le voyage retour!<br>Impatient comme je suis, la route va être loooongue! Et j'arrive devant chez moi. Déjà?!?? Je ne me souviens même plus de la route, plus aucune notion du temps, la tête dans les années 1980.</p><hr><h4 id="retour-la-maison">Retour à la maison</h4><p>Retour à la réalité! J'ai trop hâte de la montrer aux enfants! Je cours chez mon voisin demander son aide pour ne pas l'abîmer, elle est trop belle !<br><em>- T'es prêt? Surtout prend la bien par les poignées!</em><br><em>- Ok, à 3 on lève !</em><br><em>- Ca marche! 1, 2, 3!</em></p><p>On descend la partie basse, relativement sereins. Il reste à sortir la partie haute, où se trouve l'écran.<br><em>- On y retourne? A 3?</em><br><em>- C'est parti! 1, 2, 3! Oh hisse!</em><br><br><strong>** CRASHH **</strong></p><hr><h4 id="fin-de-ma-premi-re-borne-">Fin de ma première borne...</h4><p><em>- C'EST QUOI CA??!?</em><br>Je vois l'écran par terre!!! Non, c'est pas possible, je dois faire un cauchemar! La partie supérieure a cédée sous le poids!!!Je suis anéanti! Mon voisin ramasse l'écran en tenant les fils qui pendent. Certains sont dénudés, d'autres rompus! Scène horrible!</p><p>Dépité, je remets l’écran dans son logement... Apparement, il n'a pas souffert plus que ça... Je cherche le schéma de câblage de la bête sur le net, je rebranche tout.<br>J'espère que ça ira... J'allume...<br><br><strong>**CLAC!!**</strong><br><br>J’aperçois de la lumière, mais non, seule une ligne blanche traverse l'écran horizontalement...<br>Que faire ? Trouver un autre écran ? Presque impossible, d'autant que je ne voulais pas non plus le remplacer par un CRT lambda.</p><p>Je décide de jeter un œil sur le net, je tape sur Google : borne arcade...</p><hr><h4 id="et-renaissance-">Et renaissance!</h4><p>Tiens, Hyperspin ? c'est quoi ça ?<br>L'aventure commence ....</p><h4 id="vid-o-">Vidéo!</h4><figure class="gm-embed"><iframe src="https://www.youtube.com/embed/KuLzPVTZSyc" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></figure>

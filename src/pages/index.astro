@@ -5,7 +5,8 @@ import data from '../data/site.json';
 
 const posts = data.posts.filter((p: any) => p.visible !== false) as any[];
 const FEATURED = ['mini-sega-outrun', 'bam-board', 'mini-new-astro-city', 'mini-vewlix-v2-0', 'starone', 'neo-geo-x', 'pony-mark-ii', 'mini-sega-swing', 'mini-aero'];
-const featured = FEATURED.map((s) => posts.find((p) => p.slug === s)).filter(Boolean);
+const flagged = posts.filter((p) => p.featured === true).slice(0, 6);
+const featured = flagged.length > 0 ? flagged : FEATURED.map((s) => posts.find((p) => p.slug === s)).filter(Boolean);
 const latest = posts.filter((p) => !FEATURED.includes(p.slug)).slice(0, 6);
 const year = new Date().getFullYear();
 const count = posts.length;

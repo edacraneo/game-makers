@@ -1,14 +1,19 @@
 ---
-title: "Créez votre \"multimedia center\" : Impression 3D, Pi3, Son SPDIF, Librelec et Hyperion"
-slug: "creez-votre-multimedia-center-pi3-son-spdif-librelec-et-hyperion"
+title: 'Créez votre "multimedia center" : Impression 3D, Pi3, Son SPDIF,
+  Librelec et Hyperion'
+slug: creez-votre-multimedia-center-pi3-son-spdif-librelec-et-hyperion
 date: 2022-02-03
-tags: []
-authors: ['Ian57']
+tags:
+  - media-center
+authors:
+  - Ian57
 featured: false
-feature: "/images/2022/02/IMG_9772.JPG"
-excerpt: "Cet article va vous permettre de construire votre propre \"multimedia center\" connecté, fournissant l'Ambilight sur votre TV et aussi une sortie son SPDIF numérique pour utiliser vo…"
+feature: /images/2022/02/IMG_9772.JPG
+excerpt: Cet article va vous permettre de construire votre propre "multimedia
+  center" connecté, fournissant l'Ambilight sur votre TV et aussi une sortie son
+  SPDIF numérique pour utiliser vo…
+visible: true
 ---
-
 <p>Cet article va vous permettre de construire votre propre "multimedia center" connecté, fournissant l'Ambilight sur votre TV et aussi une sortie son SPDIF numérique pour utiliser votre Home cinéma (en coaxial ou fibre optique). Il sera basé sur un Raspberry Pi 3 et utilisera la distribution LibreElec (basée sur le très bon Kodi).</p><p></p><figure ><div ><iframe src="https://www.youtube.com/embed/MMUp8Uuw6pI" frameborder="0" allowfullscreen></iframe><div ><button ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button></div><div ><div ><button ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button><button ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="1" width="7" height="22" rx="1.5" ry="1.5"/><rect x="14" y="1" width="7" height="22" rx="1.5" ry="1.5"/></svg></button><span >0:00</span><div >/<span ></span></div><input type="range"  max="100" value="0"><button >1&#215;</button><button ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z"/></svg></button><button ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z"/></svg></button><input type="range"  max="100" value="100"></div></div></div></figure><!--: markdown--><h1 id="liste-de-mat%C3%A9riel">Liste de matériel</h1>
 <!--: markdown--><!--: markdown--><ul>
 <li>1 raspberry pi 3 ou 4</li>

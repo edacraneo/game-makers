@@ -1,14 +1,18 @@
 ---
-title: "Naomi Netboot"
-slug: "pidimmboot-naomi"
+title: Naomi Netboot
+slug: pidimmboot-naomi
 date: 2021-10-02
-tags: ['creations']
-authors: ['Ian57']
+tags:
+  - creations
+authors:
+  - Ian57
 featured: false
-feature: "/images/2021/09/NaomiNetBootNBanniere-1.png"
-excerpt: "Naomi NetBoot https://gitlab.com/ian57/pidimboot est basé sur l'excellent projet PiDimBoot (https://gitlab.com/ezechiel/pidimboot) de ezechiel, également basé sur PiforceTools (htt…"
+feature: /images/2021/09/NaomiNetBootNBanniere-1.png
+excerpt: Naomi NetBoot https://gitlab.com/ian57/pidimboot est basé sur
+  l'excellent projet PiDimBoot (https://gitlab.com/ezechiel/pidimboot) de
+  ezechiel, également basé sur PiforceTools (htt…
+visible: true
 ---
-
 <p>Naomi NetBoot <a href="https://gitlab.com/ian57/pidimboot">https://gitlab.com/ian57/pidimboot</a> est basé sur l'excellent projet PiDimBoot (<a href="https://gitlab.com/ezechiel/pidimboot">https://gitlab.com/ezechiel/pidimboot</a>) de ezechiel, également basé sur PiforceTools (<a href="https://github.com/travistyoj/piforcetools">https://github.com/travistyoj/piforcetools</a>) pour charger des jeux sur Sega Netdimm (Naomi 1 et 2, TriForce, Chihiro) avec Raspberry et un écran Lcd tactile résistif 3.5" (320x480).<br>J'ai utilisé un écran geekcreit 3.5" 480x320 bon marché de <a href="https://fr.banggood.com/3_5-Inch-320-X-480-TFT-LCD-Display-Touch-Board-For-Raspberry-Pi-2-Model-B-RPI-B-p-1023432.html">https://fr.banggood.com/3_5-Inch-320-X-480-TFT-LCD-Display-Touch-Board-For-Raspberry-Pi-2-Model-B-RPI-B-p-1023432.html</a> qui est un clone du waveshare <a href="https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)">https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)</a> (le rétro-éclairage ne peut pas être réglé, vous aurez besoin du revB ou revC pour le faire <a href="https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(B)">https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(B)</a>, <a href="https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(C)">https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(C)</a>)<br>Mon code source est 100% GRATUIT, OPEN SOURCE, et FORKABLE :)<br>Merci pas de business, pas d'argent pour cette application, c'est seulement GRATUIT.</p><hr><h2 id="quoi-de-neuf">Quoi de neuf ?</h2><p>Ce fork utilise le dernier Rasbian OS Lite (Raspbian GNU/Linux 10) pour éviter les logiciels inutiles (comme xorg), et faire une image plus légère (1.6 GB sans roms).</p><!--: markdown--><pre><code>Sys. de fichiers blocs de 1K Utilisé Disponible Uti% Monté sur
 /dev/root 7261112 1626564 5306428 24% / 
 /dev/mmcblk0p1 258095 48804 209292 19% /boot
