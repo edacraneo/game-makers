@@ -9,7 +9,7 @@ authors:
 feature: /images/2021/01/img01-9.JPG
 excerpt: "Genèse : Après avoir mené à terme différents projets longs et
   ambitieux, nous avons constaté lors du montage, que certaines étapes étaient
-  coûteuses en temps et pouvaient être simplifiées !"
+  coûteuses en temps et pouvaient être simp..."
 featured: false
 visible: true
 ---
