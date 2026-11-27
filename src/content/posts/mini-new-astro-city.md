@@ -86,8 +86,6 @@ Il s'est aussi chargé des stickers en s'assurant qu'ils soient fidèles à l'or
 ![](/images/2021/01/img02.JPG) ![](/images/2021/01/img03.JPG) ![](/images/2021/01/img04.JPG)
 ![](/images/2021/01/img05.JPG) ![](/images/2021/01/img06.JPG)
 
-<figure class="gm-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/Axzaw6IRtcI" frameborder="0" allowfullscreen></iframe></figure>
-
 ---
 
 ## Le châssis
@@ -536,3 +534,9 @@ Il faut maintenant réaliser un test de fonctionnement pour vérifier que le min
 ![](/images/2021/01/img107.JPG) ![](/images/2021/01/img108.JPG) ![](/images/2021/01/img109.JPG)
 
 ![](/images/2021/01/img110.JPG) ![](/images/2021/01/img111.JPG)
+
+---
+
+## Vidéo
+
+<figure class="gm-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/Axzaw6IRtcI" frameborder="0" allowfullscreen></iframe></figure>
