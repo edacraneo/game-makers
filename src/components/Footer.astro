@@ -34,7 +34,7 @@ const tags = [
       <p class="font-mono text-xs uppercase tracking-widest text-ink-400 mb-4">Tags</p>
       <div class="flex flex-wrap gap-2">
         {tags.map((t) => (
-          <a href={`/projets/?tag=${t.slug}`} class="font-mono text-xs px-3 py-1.5 rounded-full border border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400 transition-colors">
+          <a href={`/projets/?tag=${t.slug}`} class="font-mono text-xs uppercase tracking-wider px-3 py-1.5 rounded-full border border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400 transition-colors">
             {t.name}
           </a>
         ))}

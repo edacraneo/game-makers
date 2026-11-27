@@ -33,9 +33,9 @@ const tags = [
     </p>
 
     <div id="filters" class="mt-8 flex flex-wrap gap-2">
-      <button data-filter="all" class="filter-btn font-mono text-xs px-4 py-2 rounded-full border border-neon-500 bg-neon-500/10 text-neon-300 transition-colors">Tous</button>
+      <button data-filter="all" class="filter-btn font-mono text-xs uppercase tracking-wider px-4 py-2 rounded-full border border-neon-500 bg-neon-500/10 text-neon-300 transition-colors">Tous</button>
       {tags.map((t) => (
-        <button data-filter={t.slug} class="filter-btn font-mono text-xs px-4 py-2 rounded-full border border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400 transition-colors">
+        <button data-filter={t.slug} class="filter-btn font-mono text-xs uppercase tracking-wider px-4 py-2 rounded-full border border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400 transition-colors">
           {t.name}
         </button>
       ))}
@@ -72,7 +72,7 @@ const tags = [
     empty.classList.toggle('hidden', shown > 0);
     for (const btn of buttons) {
       const active = btn.dataset.filter === filter;
-      btn.className = 'filter-btn font-mono text-xs px-4 py-2 rounded-full border transition-colors ' +
+      btn.className = 'filter-btn font-mono text-xs uppercase tracking-wider px-4 py-2 rounded-full border transition-colors ' +
         (active
           ? 'border-neon-500 bg-neon-500/10 text-neon-300'
           : 'border-ink-700 text-ink-300 hover:border-neon-500 hover:text-neon-400');
