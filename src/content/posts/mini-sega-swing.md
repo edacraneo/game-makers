@@ -12,4 +12,4 @@ excerpt: "Projet 2 : Humm celle là me tient à cœur ! En version 2 players ? J
   crois bien !"
 visible: true
 ---
-<h2 id="projet-2"># Projet 2 :</h2><p></p><p>Humm celle là me tient à cœur !</p><figure class="gm-figure"><img src="/images/2021/03/dsc03076c.jpg"  alt loading="lazy" width="768" height="1024"></figure><p>En version 2 players ?  Je crois bien !</p>
+<h2 id="projet-2"># Projet 2 :</h2><p></p><p>Humm celle là me tient à cœur !</p><figure class="gm-figure"><img src="/images/2021/03/dsc03076c.jpg"  alt loading="lazy"></figure><p>En version 2 players ?  Je crois bien !</p>
