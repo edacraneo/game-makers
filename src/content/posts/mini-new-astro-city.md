@@ -72,6 +72,8 @@ Les fichiers .STL, les stickers, etc  sont disponibles :
 
 C'est au tour de la mythique **SEGA New Astro City** sortie en 1993 au Japon, d'être miniaturisée en version "mini bartop" avec la collaboration de **Ian57** !
 
+<figure class="gm-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/BFae_eSILB8" frameborder="0" allowfullscreen></iframe></figure>
+
 Nous tenons à remercier [**Art'Cab**](https://www.artcab.fr/) pour nous avoir fourni le matériel "arcade" et bien plus encore, ainsi que [**Kubii**](https://www.kubii.fr/) pour nous avoir fourni le Raspberry Pi3 B+ et leur confiance !
 
 ---
