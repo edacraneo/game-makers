@@ -39,7 +39,9 @@ La liste du matériel utilisé est disponible : [ici](https://drive.google.com/f
 
 Les fichiers .STL, les stickers, etc  sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/framekit-p5-for-rpi2dmd"><div ><div >FrameKit P5 for ~Rpi2DMD~</div><div >C’est une “DMD-Clock”, une horloge évoluée qui permet d’afficher des petites animations de jeux vidéo (ou autre) tout en alternant avec la date, l’heure et même la météo sur 2 dalles (DMD). C’est un accessoire original et indispensable dans une salle de jeux ! https://www.youtube.com/watch?v&#x3D;27_PRe-f8Fc&amp;feature&#x3D;emb_logo…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://files.cults3d.com/uploaders/13841606/illustration-file/015b73fb-68cf-4b16-b76d-cf726b446673/youtube-video-gif_large.gif"></div></a></figure>
+[**FrameKit P5 for ~Rpi2DMD~**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/framekit-p5-for-rpi2dmd)
+
+![](https://files.cults3d.com/uploaders/13841606/illustration-file/015b73fb-68cf-4b16-b76d-cf726b446673/youtube-video-gif_large.gif)
 
 ---
 

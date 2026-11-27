@@ -117,7 +117,9 @@ Normalement vous pouvez alors obtenir le son soit par la sortie Coaxiale, soit p
 
 Pour la partie explication et matériel, je vous renvoie à l'article suivant
 
-<figure ><a  href="/projets/creez-votre-multimedia-center-pi3-son-spdif-librelec-et-hyperion/"><div ><div >Créez votre “multimedia center” : Impression 3D, Pi3, Son SPDIF, Librelec et Hyperion</div><div >Cet article va vous permettre de construire votre propre “multimedia center” connecté, fournissant l’Ambilight sur votre TV et aussi une sortie son SPDIF numérique pour utiliser votre Home cinéma (en coaxial ou fibre optique). Il sera basé sur un Raspberry Pi 3 et utilisera la distribution LibreElec…</div><div ><img  src="/favicon.ico" alt=""><span >Game Makers</span><span >Ian57</span></div></div><div ><img src="/images/2022/02/IMG_9772.JPG" alt=""></div></a></figure>
+[**Créez votre “multimedia center” : Impression 3D, Pi3, Son SPDIF, Librelec et Hyperion**](/projets/creez-votre-multimedia-center-pi3-son-spdif-librelec-et-hyperion/)
+
+![](/images/2022/02/IMG_9772.JPG)
 
 La seule différence, mais de taille, est que nous utiliserons HyperionNG le successeur d’Hypérion qui ne nécessite plus d'application dédiée pour la configuration, mais utilise un service web directement accessible sur notre centre multimédia.
 

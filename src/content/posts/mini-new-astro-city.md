@@ -61,7 +61,9 @@ La liste du matériel utilisé est disponible : [ici](https://drive.google.com/f
 
 Les fichiers .STL, les stickers, etc  sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-new-astro-city"><div ><div >Mini New Astro City</div><div >Un hommage à la mythique SEGA New Astro City sortie en 1993 au Japon, nous avons réalisé une version “mini bartop” dotée d’un écran LCD de 9.7″ 4/3, d’un mini TFT marquee dynamique et d’un Raspberry Pi3. 2 versions disponibles : - Avec le mini TFT marquee - Sans le mini TFT marquee La fon…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://files.cults3d.com/uploaders/13841606/illustration-file/b21e1055-15e8-4310-bea8-8f5508437e48/4j2sul_large.gif"></div></a></figure>
+[**Mini New Astro City**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-new-astro-city)
+
+![](https://files.cults3d.com/uploaders/13841606/illustration-file/b21e1055-15e8-4310-bea8-8f5508437e48/4j2sul_large.gif)
 
 ---
 

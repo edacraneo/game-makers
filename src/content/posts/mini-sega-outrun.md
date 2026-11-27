@@ -72,7 +72,9 @@ La liste du matériel utilisé est disponible : &lt;&lt;&lt;&lt;-[ici](https://d
 
 Les fichiers .STL, les stickers, etc sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-sega-outrun"><div ><div >Mini Sega OutRun</div><div >Un hommage à la mythique SEGA OutRun sortie en 1986 au Japon, nous avons réalisé une version “mini RaceCab” dotée d’un écran LCD de 9.7″ 4/3 et d’un Raspberry Pi3. - Vibration au freinage ! - Breeze ! (vent dans le visage à l’accélération) - Clef de contact - Compteurs rétro-éclairés - Topper…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://video.cults3d.com/o8Qck1kWJVKhqP_4_2OdzRBASjM&#x3D;/516x516/https://files.cults3d.com/uploaders/13841606/illustration-file/01396ace-97e0-4f0f-b930-d106d45fea1e/1.gif"></div></a></figure>
+[**Mini Sega OutRun**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-sega-outrun)
+
+![](https://video.cults3d.com/o8Qck1kWJVKhqP_4_2OdzRBASjM&#x3D;/516x516/https://files.cults3d.com/uploaders/13841606/illustration-file/01396ace-97e0-4f0f-b930-d106d45fea1e/1.gif)
 
 &lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;
 

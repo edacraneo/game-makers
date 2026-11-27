@@ -65,7 +65,9 @@ La liste du matériel utilisé est disponible : [ici](https://drive.google.com/f
 
 Les fichiers .STL, les stickers, etc sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-bartop-starone"><div ><div >Mini bartop : StarOne</div><div >Bartop inspiré du StarForce, Grandstand de 1984. Il fonctionne sur batteries ou en filaire, possède une grande autonomie et le style des vaisseaux de l’Empire ! - Nous l’avons réalisé ici : /00_Projets/Projet028.php - La liste du matériel utilisé : /Dispatcher002.php…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://files.cults3d.com/uploaders/13841606/illustration-file/dccf661e-0dd4-45f6-9313-513ed4cab30f/1_large.JPG"></div></a></figure>
+[**Mini bartop : StarOne**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-bartop-starone)
+
+![](https://files.cults3d.com/uploaders/13841606/illustration-file/dccf661e-0dd4-45f6-9313-513ed4cab30f/1_large.JPG)
 
 ---
 

@@ -77,7 +77,9 @@ La liste du matériel utilisé est disponible : [ici](https://drive.google.com/f
 
 Les fichiers .STL, les stickers, etc sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-console-tv-retro"><div ><div >Mini console : TV Rétro</div><div >La console “mini TV Rétro” est équipée d’un écran 8″, d’un Raspberry Pi. On peut aussi y brancher des vieilles consoles grâce à ses différentes connectiques ! (analogique et numérique) - Nous l’avons réalisé ici : /00_Projets/Projet023.php - La liste du matériel util…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://files.cults3d.com/uploaders/13841606/illustration-file/634e121a-570e-44dc-907b-f7eb5aaaa659/0_large.JPG"></div></a></figure>
+[**Mini console : TV Rétro**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/mini-console-tv-retro)
+
+![](https://files.cults3d.com/uploaders/13841606/illustration-file/634e121a-570e-44dc-907b-f7eb5aaaa659/0_large.JPG)
 
 ---
 

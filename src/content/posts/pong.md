@@ -42,7 +42,9 @@ La liste du matériel utilisé est disponible : [ici](https://drive.google.com/f
 
 Les fichiers .STL , les stickers , etc sont disponibles :
 
-<figure ><a  href="https://cults3d.com/fr/mod%C3%A8le-3d/jeu/concole-atari-pong"><div ><div >Console : ATARI Pong</div><div >Un hommage à la première console sur laquelle j’ai pu découvrir ce type de jeux, une console PONG! En fouillant sur le net, j’ai découvert qu’il existait des kits électroniques DIY de TENNIS. - Voici un remix de la console PONG réalisée à partir d’un kit : kit VELLEMAN MK 191. - Nous l’avons réa…</div><div ><img  src="https://assets.cults3d.com/assets/logos/apple-touch-icon/cults-4ffc3d38aa4fff5c0b6089ea82ae94894851072d6d91efd7d39254bdd623ea77.png"><span >Cults.</span></div></div><div ><img src="https://files.cults3d.com/uploaders/13841606/illustration-file/e7efe582-495a-42bd-8594-c0f4d3d1bc56/img38_large.JPG"></div></a></figure>
+[**Console : ATARI Pong**](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/concole-atari-pong)
+
+![](https://files.cults3d.com/uploaders/13841606/illustration-file/e7efe582-495a-42bd-8594-c0f4d3d1bc56/img38_large.JPG)
 
 ---
 
