@@ -59,6 +59,86 @@ visible: true
 
 ---
 
+#### Présentation du projet :
+
+Nous n'étions pas complètement satisfaits de la première version de notre mini Vewlix. Nous avons donc révisé notre concept initial et échangé quelques nouvelles idées pour aboutir à une nouvelle version : la 2.0.
+Je vous laisse découvrir les améliorations que nous lui avons apportées....!
+
+---
+
+#### Le Design :
+
+Sobre et épurée, elle doit conserver les traits spécifiques à la Vewlix, avec un peu de Light Fun !
+
+![](/images/2021/01/vewlix2-img02.JPG) ![](/images/2021/01/vewlix2-img03.JPG) ![](/images/2021/01/vewlix2-img04.JPG)
+
+---
+
+#### Châssis
+
+Contrairement à la V1.0, il nous faut gagner beaucoup de place afin de pouvoir intégrer un écran 9,7", tout en conservant le châssis initialement conçu avec en plus : une alimentation 12/5v ainsi qu'un Solid State Relay (SSR)....Un nouveau challenge sur la gestion de l'espace.
+Certaines pièces de la structure sont collées définitivement, d'autres sont aimantées comme la porte arrière, qui permet un accès rapide pour certains réglages
+
+![](/images/2021/01/vewlix2-img05.JPG) ![](/images/2021/01/vewlix2-img06.JPG) ![](/images/2021/01/vewlix2-img07.JPG) ![](/images/2021/01/vewlix2-img08.JPG) ![](/images/2021/01/vewlix2-img09.JPG) ![](/images/2021/01/vewlix2-img10.JPG)
+
+---
+
+#### Sides Lumineuses
+
+Un peu de lumière pour le fun mais aussi pour l'aspect général ! Ce contraste de noir et de bleu discret permet une élégante touche de modernité.
+J'utilise 1 Led bleue de 5V avec 1 résistance de 180 ohms que j'ai fixé avec de la colle chaude dans la pièce prévue (cf photos).
+
+J'imprime les petites plaques de protection avec de la "matière translucide/transparente" permettant de laisser passer la lumière de façon discrète. Les leds sont reliées directement aux gpio du Pi.
+
+![](/images/2021/01/vewlix2-img11.JPG) ![](/images/2021/01/vewlix2-img12.JPG) ![](/images/2021/01/vewlix2-img13.JPG) ![](/images/2021/01/vewlix2-img14.JPG) ![](/images/2021/01/vewlix2-img15.JPG) ![](/images/2021/01/vewlix2-img16.JPG) ![](/images/2021/01/vewlix2-img17.JPG) ![](/images/2021/01/vewlix2-img18.JPG) ![](/images/2021/01/vewlix2-img19.JPG) ![](/images/2021/01/vewlix2-img20.JPG) ![](/images/2021/01/vewlix2-img21.JPG) ![](/images/2021/01/vewlix2-img22.JPG) ![](/images/2021/01/vewlix2-img23.JPG) ![](/images/2021/01/vewlix2-img24.JPG) ![](/images/2021/01/vewlix2-img25.JPG)
+
+---
+
+#### Test d'assemblage
+
+Avant d'aller plus loin, je dois m'assurer que tout s'emboîte parfaitement, détecter les problèmes liés aux erreurs de conception et améliorer ce qui peut l'être encore...En l'occurrence tout va bien !
+
+![](/images/2021/01/vewlix2-img26.JPG) ![](/images/2021/01/vewlix2-img27.JPG)
+
+---
+
+#### Panel
+
+Le panel compte 6 boutons d'action, 1 start, 1 select et le Power. Le câblage est réalisé sur les gpio de la même manière que nos autres réalisations.
+Je vous rassure, les câbles sont triés et fixés avec des colliers de serrage proprement ! Comme d'habitude, joystick et boutons Sanwa et Seimitsu.
+
+Le panel repose sur la structure et est fixé avec 6 vis 2X10mm et 2X6mm, le bouton power est muni d'une led de 5V, pas besoin d'ajouter une résistance, c'est d'origine.
+Le sticker que j'ai utilisé sera disponible dans la section Settings.
+
+![](/images/2021/01/vewlix2-img28.JPG) ![](/images/2021/01/vewlix2-img29.JPG) ![](/images/2021/01/vewlix2-img30.JPG) ![](/images/2021/01/vewlix2-img31.JPG) ![](/images/2021/01/vewlix2-img32.JPG) ![](/images/2021/01/vewlix2-img33.JPG) ![](/images/2021/01/vewlix2-img34.JPG) ![](/images/2021/01/vewlix2-img35.JPG)
+
+---
+
+#### Mini LCD I2C
+
+Le petit LCD permettra d'afficher fièrement notre logo Game Makers avec une petite animation mais sa principale fonction est de donner le nom des jeux, systèmes, genre, nombre de joueurs etc etc !
+Il est relié aux pins 2 (5v), 6 (ground), 3 (SDA), 5 (SCL). Il faut bien penser à régler le contraste avec la petite vis à l'arrière.
+
+Pour fixer celui-ci à la pièce imprimée (fronton) : 4 vis 2X6mm.
+C'est un peu la nouveauté, notre nouveau challenge d'intégrer ce mini LCD car il nous impose des modifications dans Recalbox : driver, script etc.
+
+![](/images/2021/01/vewlix2-img36.JPG) ![](/images/2021/01/vewlix2-img37.JPG) ![](/images/2021/01/vewlix2-img38.JPG) ![](/images/2021/01/vewlix2-img39.JPG) ![](/images/2021/01/vewlix2-img40.JPG) ![](/images/2021/01/vewlix2-img41.JPG)
+
+![](/images/2021/01/vewlix2-img42.JPG) ![](/images/2021/01/vewlix2-img43.JPG)
+
+---
+
+#### Script Python de Frakasss
+
+Pour fonctionner, notre mini LCD a besoin aussi d'un script qui va chercher les informations (dans un fichier .XML) que nous souhaitons voir s'afficher sur le fronton. Pour ça, nous avons repris un script qui a été réalisé par **CHOUM** du forum Recalbox, avec l'aide d'autres personnes. Il nous a servi de base pour réaliser le nôtre...
+
+Nous avons trié les informations que nous souhaitions garder, changé la vitesse de défilement, ajouté notre logo avec des petites animations sympathiques.
+C'est **Frakasss** qui s'est coltiné tout le taff (en plus de l'étude du design !), le langage utilisé est le "Python", toutes les images et animations sont codées "en binaire" à partir de paint et d'un logiciel disponible sur le net.
+
+Il a passé de longues heures à trouver le bon rythme et à corriger les bugs pour me satisfaire Ah ah ah ! Bref, c'est dans ce genre de défi que nous sommes encore plus complémentaires, ses compétences valent de l'or !
+J'ai suivi cette procédure afin d'installer et faire fonctionner celui-ci : [>>>>>>ici<<<<<<](https://github.com/recalbox/recalbox-os/wiki/Connectez-un-afficheur-LCD-avec-I2C-%C3%A0-votre-recalbox-(FR))
+
+---
 #### Custom GPIO Recalbox
 
 Pour faire fonctionner le mini LCD I2C en mode GPIO=1, il est nécessaire de faire quelques modifications dans recalbox. En effet, les PINs utilisées par le mini LCD sont en conflit avec les Hot Keys... Aïe, c'est un Big Trouble !
