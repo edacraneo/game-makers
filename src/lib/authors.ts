@@ -2,7 +2,7 @@ const AUTHORS: Record<string, { icon: string; bio: string }> = {
   ian57: { icon: '/logo/ian57.jpg', bio: 'MacGyver Hawkins !' },
   elluigi: { icon: '/logo/elluigi.jpg', bio: "Echappé de l'asile !" },
   buddevil: { icon: '/logo/buddevil.jpg', bio: 'tête à claque !' },
-  frakasss: { icon: '/logo/frakasss.jpg', bio: 'Taper ! Taper !' },
+  frakasss: { icon: '/logo/frakasss.jpg', bio: 'Taper ! Programmer ! Taper !' },
 };
 
 export function authorIcon(name: string): string | null {
