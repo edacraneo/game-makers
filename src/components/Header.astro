@@ -9,7 +9,7 @@ const links = [
 const isActive = (href: string) =>
   href === '/' ? path === '/' : path.startsWith(href);
 // Version EN via le proxy de traduction Google (fonctionne sur tout domaine)
-const enHost = Astro.url.hostname.replace(/\./g, '-') + '.translate.goog';
+const enHost = Astro.url.hostname.replace(/-/g, '--').replace(/\./g, '-') + '.translate.goog';
 const enUrl = `https://${enHost}${Astro.url.pathname}?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en`;
 const showLang = Astro.url.hostname.includes('.');
 ---
