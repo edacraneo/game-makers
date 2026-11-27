@@ -10,6 +10,13 @@ import { authorIcon } from '../lib/authors';
 const { entry, basePath = '/projets/' } = Astro.props;
 entry.tags = (entry.tags || []).filter((t) => t.slug && t.name?.trim());
 const d = entry.date ? new Date(entry.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
+let body = entry.html;
+if (entry.feature) {
+  const base = (u: string) => u.replace(/^.*\//, '').replace(/-\d+(\.\w+)$/, '$1');
+  const m = body.match(/^\s*<figure[^>]*>[\s\S]*?<\/figure>\s*(?:<hr\s*\/?>\s*)?/);
+  const src = m?.[0].match(/src="([^"]+)"/)?.[1];
+  if (m && src && base(src) === base(entry.feature)) body = body.slice(m[0].length);
+}
 ---
 <article class="mx-auto max-w-3xl px-5 sm:px-8 pt-28 pb-16">
   <header class="mb-10">
@@ -52,5 +59,5 @@ const d = entry.date ? new Date(entry.date + 'T00:00:00').toLocaleDateString('fr
     </figure>
   )}
 
-  <div class="gm-content" set:html={entry.html} />
+  <div class="gm-content" set:html={body} />
 </article>
