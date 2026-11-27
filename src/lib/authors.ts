@@ -1,7 +1,7 @@
 const AUTHORS: Record<string, { icon: string; bio: string }> = {
   ian57: { icon: '/logo/ian57.jpg', bio: 'MacGyver Hawkins !' },
-  elluigi: { icon: '/logo/elluigi.jpg', bio: "Echappé de l'asile !" },
-  buddevil: { icon: '/logo/buddevil.jpg', bio: 'tête à claque !' },
+  elluigi: { icon: '/logo/elluigi.jpg', bio: 'Créateur fou !' },
+  buddevil: { icon: '/logo/buddevil.jpg', bio: "Echappé de l'asile !" },
   frakasss: { icon: '/logo/frakasss.jpg', bio: 'Taper ! Programmer ! Taper !' },
 };
 
