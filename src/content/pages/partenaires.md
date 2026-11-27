@@ -1,17 +1,16 @@
 ---
 title: "Nos Partenaires :"
-slug: "partenaires"
+slug: partenaires
 date: 2021-01-25
-excerpt: "Un grand Merci à nos partenaires qui soutiennent nos différents projets !"
+excerpt: Un grand Merci à nos partenaires qui soutiennent nos différents projets !
 ---
-
 <hr><p>Un <strong>grand "Merci"</strong> à nos partenaires qui soutiennent nos différents projets !<br>Sans eux, nous ne serions pas là :</p>
 
 <figure>
   <a href="https://www.artcab.fr/">
     <div>
       <div>Hommage à Art'Cab (2015-2025)</div>
-      <div>Spécialiste du flipper virtuel (pincab) et de l'arcade. Artcab a fermé ses portes en 2025 après 10 années de passion. Ils nous ont aidés pour l'électronique et les pièces détachées de nos bornes d'arcade et pincabs. Un immense merci à toute l'équipe pour leur accompagnement.</div>
+      <div>Spécialiste du flipper virtuel (pincab) et de l'arcade. Artcab a fermé ses portes en 2025 après 10 années de passion. Ils nous ont aidés pour l'électronique et les pièces détachées de nos bornes d'arcade. Un immense merci à toute l'équipe pour leur accompagnement, leur professionnalisme exemplaire et leur gentillesse.</div>
     </div>
     <div><img class="gm-partner-logo" src="/logo/artcab.png" alt="Art'Cab" /></div>
   </a>
@@ -45,5 +44,3 @@ excerpt: "Un grand Merci à nos partenaires qui soutiennent nos différents proj
 <p><a href="https://www.pointpointslash.com/"><img class="gm-partner-logo" src="/logo/pointpointslash.png" alt="pointpointslash.com" /></a></p>
 
 <hr>
-<p>Vous souhaitez vous aussi nous soutenir à votre manière ? Venez nous en parler :</p>
-<p>Edacraneo@gmail.com</p>
