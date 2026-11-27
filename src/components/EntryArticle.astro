@@ -12,7 +12,7 @@ entry.tags = (entry.tags || []).filter((t) => t.slug && t.name?.trim());
 const d = entry.date ? new Date(entry.date + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : null;
 let body = entry.html;
 if (entry.feature) {
-  const base = (u: string) => u.replace(/^.*\//, '').replace(/-\d+(\.\w+)$/, '$1');
+  const base = (u: string) => u.replace(/^.*\//, '').replace(/-\d+(\.\w+)$/, '$1').toLowerCase().replace(/^mini(\d+)/, 'img$1');
   const m = body.match(/^\s*<figure[^>]*>[\s\S]*?<\/figure>\s*(?:<hr\s*\/?>\s*)?/);
   const src = m?.[0].match(/src="([^"]+)"/)?.[1];
   if (m && src && base(src) === base(entry.feature)) body = body.slice(m[0].length);
