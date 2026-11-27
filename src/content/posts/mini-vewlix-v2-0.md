@@ -136,7 +136,7 @@ Nous avons trié les informations que nous souhaitions garder, changé la vitess
 C'est **Frakasss** qui s'est coltiné tout le taff (en plus de l'étude du design !), le langage utilisé est le "Python", toutes les images et animations sont codées "en binaire" à partir de paint et d'un logiciel disponible sur le net.
 
 Il a passé de longues heures à trouver le bon rythme et à corriger les bugs pour me satisfaire Ah ah ah ! Bref, c'est dans ce genre de défi que nous sommes encore plus complémentaires, ses compétences valent de l'or !
-J'ai suivi cette procédure afin d'installer et faire fonctionner celui-ci : [>>>>>>ici<<<<<<](https://github.com/recalbox/recalbox-os/wiki/Connectez-un-afficheur-LCD-avec-I2C-%C3%A0-votre-recalbox-(FR))
+J'ai suivi cette procédure afin d'installer et faire fonctionner celui-ci : [>>>>>>ici<<<<<<](https://wiki.recalbox.com/fr/tutorials/video/tft/lcd-display-with-i2c)
 
 ---
 #### Custom GPIO Recalbox
@@ -149,7 +149,7 @@ Cette nouvelle fonctionnalité me permet de libérer les 2 pins indispensables a
 
 Voici le post en question :
 
-mk\_arcade\_customGPIO :[ &gt;&gt;&gt;&gt;&gt;&gt;ici&lt;&lt;&lt;&lt;&lt;&lt;](https://forum.recalbox.com/topic/5628/ecran-3-2-boutons-sur-ports-gpio/27)
+mk\_arcade\_customGPIO :[ &gt;&gt;&gt;&gt;&gt;&gt;ici&lt;&lt;&lt;&lt;&lt;&lt;](https://wiki.recalbox.com/fr/tutorials/controllers/gpio/gpio-controllers)
 
 Sans cette option, notre projet serait tombé à l'eau ! J'adresse **"Un grand MERCI"** à tous ceux qui bossent, dans l'ombre, chez Recalbox afin que nous puissions en jouir ! Un spécial "Thanks" to **Ian57** pour sa gentillesse et son aide précieuse.
 
