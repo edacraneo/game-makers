@@ -1,8 +1,7 @@
-# Dev local : lancez `npx decap-server` à côté du serveur Astro,
-# le proxy écrit directement dans src/content/.
-local_backend: true
+# Dev local : Sveltia gère les dépôts locaux nativement (bouton "Work with
+# a local repository" sur l'écran de connexion, navigateur Chromium requis).
+# Pas besoin de proxy ni de local_backend.
 
-# Prod : remplacez OWNER/REPO par votre dépôt GitHub.
 backend:
   name: github
   repo: edacraneo/game-makers

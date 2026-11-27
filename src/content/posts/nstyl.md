@@ -13,4 +13,26 @@ excerpt: "Specs Techniques Constructeur : N'Styl France (Av.Automatic) Année :
   90 kilos Standard : Jamma Taille d'éc…"
 visible: true
 ---
-<p></p><figure class="gm-figure"><img src="/images/2021/03/img01-38.JPG"  alt loading="lazy"></figure><hr><h3 id="specs-techniques-constructeur-n-styl-france-av-automatic-ann-e-1993dimensions-hauteur-1-40mlargeur-64cmprofondeur-85cmpoids-90 kilosstandard-jammataille-d-cran-25-pouces-63-50-cm-rotatifr-solution-15khzsortie-son-mono-ou-st-r-o">Specs Techniques									<br>Constructeur : <strong>N'Styl France (Av.Automatic)</strong><br>Année : <strong>1993</strong><br>Dimensions : <strong>Hauteur : 1.40m</strong><br>Largeur :<strong>64cm</strong><br>Profondeur :<strong>85cm</strong><br>Poids : <strong>~ 90 kilos</strong><br>Standard : <strong>Jamma</strong><br>Taille d'écran : <strong>25 pouces, 63.50 cm, Rotatif</strong><br>Résolution : <strong>15khz</strong><br>Sortie son : <strong>Mono ou stéréo</strong>	</h3><hr><p><strong>Une troisième!</strong></p><p>Je la récupère dans son jus, et elle n'est pas en grande forme! Il manque le panneau arrière mais pour une vingtaine d'années, c'est raisonnable...<br>Comme à chaque fois, c'est parti ... Changement des roulettes, résine, ponçage, peinture résine...<br>Une jolie couleur noire, et une série de stickers réalisés par mes soins, sur mesure, sur le thème de <strong>Métal SLUG !</strong><br>Je décide d'y mettre un slot MVS avec une 161 en 1.</p><figure class="gm-gallery "><div ><div ><div ><img src="/images/2021/01/img02-33.JPG" loading="lazy" alt></div><div ><img src="/images/2021/01/img03-32.JPG" loading="lazy" alt></div><div ><img src="/images/2021/01/img04-28.JPG" loading="lazy" alt></div></div><div ><div ><img src="/images/2021/01/img05-24.JPG" loading="lazy" alt></div><div ><img src="/images/2021/01/img06-23.JPG" loading="lazy" alt></div></div></div></figure><hr><h4 id="vid-o-">Vidéo!</h4><figure class="gm-embed"><iframe src="https://www.youtube.com/embed/51fhvYTSZEU" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></figure>
+![](/images/2021/03/img01-38.JPG)
+
+---
+
+### Specs Techniques									 Constructeur : N'Styl France (Av.Automatic) Année : 1993 Dimensions : Hauteur : 1.40m Largeur :64cm Profondeur :85cm Poids : ~ 90 kilos Standard : Jamma Taille d'écran : 25 pouces, 63.50 cm, Rotatif Résolution : 15khz Sortie son : Mono ou stéréo
+
+---
+
+**Une troisième!**
+
+Je la récupère dans son jus, et elle n'est pas en grande forme! Il manque le panneau arrière mais pour une vingtaine d'années, c'est raisonnable...
+Comme à chaque fois, c'est parti ... Changement des roulettes, résine, ponçage, peinture résine...
+Une jolie couleur noire, et une série de stickers réalisés par mes soins, sur mesure, sur le thème de **Métal SLUG !**
+Je décide d'y mettre un slot MVS avec une 161 en 1.
+
+![](/images/2021/01/img02-33.JPG) ![](/images/2021/01/img03-32.JPG) ![](/images/2021/01/img04-28.JPG)
+![](/images/2021/01/img05-24.JPG) ![](/images/2021/01/img06-23.JPG)
+
+---
+
+#### Vidéo!
+
+<figure class="gm-embed"><iframe src="https://www.youtube.com/embed/51fhvYTSZEU" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></figure>
